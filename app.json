@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "LuxuRyde",
-    "slug": "LuxuRyde",
+    "name": "LuxRide",
+    "slug": "LuxuRide",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/luxIcon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/luxrideLogo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,12 +21,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/images/luxIcon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.adrenalizebrad.LuxuRide"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/images/luxIcon.png"
+    },
+    "description": ""
   }
 }
