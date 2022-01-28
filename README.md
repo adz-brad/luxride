@@ -21,18 +21,15 @@ The main or home screen, Find Ride accepts the initial user object, welcoming th
 
 Upon navigating to the routes screen, if the user has not set their origin, they will be directed back to the Find Ride screen. If the user origin location is set, the map will render the user location with a marker and ask them where they are going. Using a similar input to the Find Ride screen, the user can enter their destination, or they can select from a list of favorites. For the boilerplate, favorites are hard coded into the Favorites component as a javascript object, however the intention is for the data object to be dynamically accessed/modified via graphql API client like Apollo. Once users enter their destination, the Google Directions API determines the route and the map renders the destination and route marker, automatically scaling to fit the route. The user can then select to start over or select a ride using the appropriate button, the former navigating to the "Select Ride" sub-screen using a separate navigation stack.
 
-<div style="display:flex;flex-direction:row;align-items:center;width:100%;margin:5px">
-<img src="https://github.com/brad-nst/luxride/blob/main/portfolio/luxRide4.jpg?raw=true" style="width:50%;margin:5px" alt="LuxRide Find Ride Screen">
-<img src="https://github.com/brad-nst/luxride/blob/main/portfolio/luxRide2.jpg?raw=true" style="width:50%;margin:5px" alt="LuxRideScreen">
-</div>
+
+| <img src="https://github.com/brad-nst/luxride/blob/main/portfolio/luxRide4.jpg?raw=true" style="width:50%;margin:5px" alt="LuxRide Find Ride Screen"> | <img src="https://github.com/brad-nst/luxride/blob/main/portfolio/luxRide2.jpg?raw=true" style="width:50%;margin:5px" alt="LuxRideScreen"> |
 
 ### Select A Ride
 
 The select a ride screen is where users choose their ride type. They are presented with 3 options, with the data for the boilerplate hard coded as an object into the component. Similar to the favorites component, this data is intended to be managed via headless CMS or cloud database, accessed by a graphql client. Upon screen render, the Google Distance Matrix API calculates the distance from the origin to the destination as well as the travel time for the ride. Based on the ride and locale, a project specific algorithm calculates the cost for each ride type. The user can then select to either modify their trip or start their trip. This is the final actionable screen in the boilerplate.
 
-<div style="display:flex;flex-direction:row;align-items:center;width:100%">
-<img src="https://github.com/brad-nst/luxride/blob/main/portfolio/luxRide5.jpg?raw=true" style="width:50%;margin:5px" alt="LuxRideScreen">
-</div>
+
+<img src="https://github.com/brad-nst/luxride/blob/main/portfolio/luxRide5.jpg?raw=true" style="height:250px;margin:5px" alt="LuxRideScreen">
 
 
 ## Future Integrations 
