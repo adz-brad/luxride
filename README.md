@@ -12,10 +12,16 @@ Assuming that user authentication has already occured, the main application wrap
 
 The main or home screen, Find Ride accepts the initial user object, welcoming the user by name and asking for their location. The user is able to enter a custom location which references the Google Places API to get origin data. The user may also select "Use Current Location" which uses Geolocation API to access native location services in order to get location data and cross-reference it with the Google Places API. Location data is stored using Redux using the setOrigin dispatch. Upon pressing "Let's Go", the user is automatically navigated to the "Route" screen.
 
-<div style="display:flex;flex-direction:row;align-items:center;width:100%;margin:5px">
-<img src="https://github.com/brad-nst/luxride/blob/main/portfolio/luxRide1.jpg?raw=true" style="width:50%;margin:5px" alt="LuxRide Screen">
-<img src="https://github.com/brad-nst/luxride/blob/main/portfolio/luxRide3.jpg?raw=true" style="width:50%;margin:5px" alt="LuxRide Screen">
-</div>
+<table>
+  <tr>
+    <td>LUX Find Ride Screen</td>
+     <td>Set Origin Dropdown</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/brad-nst/luxride/blob/main/portfolio/luxRide1.jpg?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/brad-nst/luxride/blob/main/portfolio/luxRide3.jpg?raw=true" width=270 height=480></td>
+  </tr>
+ </table>
 
 ### Route
 
